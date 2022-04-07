@@ -19,8 +19,11 @@ class ViewController: UIViewController {
     }
     private func setupAnimation(){
         animationView.animation = Animation.named("codepaca")
-        animationView.frame = view.bounds
-        animationView.backgroundColor = .black
+        // set the animation view to be the entire view size, kinda big
+//        animationView.frame = view.bounds
+        animationView.frame = CGRect(x: 0, y: 0, width: 220, height: 220)
+        animationView.center = view.center
+//        animationView.backgroundColor = .black
         animationView.contentMode = .scaleAspectFit
         animationView.loopMode = .loop
         animationView.play()
