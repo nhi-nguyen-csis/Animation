@@ -20,6 +20,7 @@
 		B53FEA8F27FF5CD800544304 /* AnimationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53FEA8E27FF5CD800544304 /* AnimationUITestsLaunchTests.swift */; };
 		B53FEA9D27FF610C00544304 /* tree.json in Resources */ = {isa = PBXBuildFile; fileRef = B53FEA9B27FF610C00544304 /* tree.json */; };
 		B53FEA9E27FF610C00544304 /* codepaca.json in Resources */ = {isa = PBXBuildFile; fileRef = B53FEA9C27FF610C00544304 /* codepaca.json */; };
+		B59A5B1127FF76A300EDE414 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B59A5B1027FF76A300EDE414 /* LoginViewController.swift */; };
 		B632CC5722F20EA309C43A5B /* Pods_Animation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AEA89BA03898A2EA350BF5E /* Pods_Animation.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +64,7 @@
 		B53FEA8E27FF5CD800544304 /* AnimationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B53FEA9B27FF610C00544304 /* tree.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tree.json; sourceTree = "<group>"; };
 		B53FEA9C27FF610C00544304 /* codepaca.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = codepaca.json; sourceTree = "<group>"; };
+		B59A5B1027FF76A300EDE414 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		DAEEEE4AAC88B17A9233150E /* Pods-AnimationTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationTests.debug.xcconfig"; path = "Target Support Files/Pods-AnimationTests/Pods-AnimationTests.debug.xcconfig"; sourceTree = "<group>"; };
 		E13D1B48482EA00D10FCF121 /* Pods-AnimationTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AnimationTests.release.xcconfig"; path = "Target Support Files/Pods-AnimationTests/Pods-AnimationTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -152,6 +154,7 @@
 				B53FEA7427FF5CD700544304 /* Assets.xcassets */,
 				B53FEA7627FF5CD700544304 /* LaunchScreen.storyboard */,
 				B53FEA7927FF5CD700544304 /* Info.plist */,
+				B59A5B1027FF76A300EDE414 /* LoginViewController.swift */,
 			);
 			path = Animation;
 			sourceTree = "<group>";
@@ -414,6 +417,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B59A5B1127FF76A300EDE414 /* LoginViewController.swift in Sources */,
 				B53FEA7027FF5CD700544304 /* ViewController.swift in Sources */,
 				B53FEA6C27FF5CD700544304 /* AppDelegate.swift in Sources */,
 				B53FEA6E27FF5CD700544304 /* SceneDelegate.swift in Sources */,
