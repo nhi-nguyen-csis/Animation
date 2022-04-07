@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         setupAnimation()
     }
     private func setupAnimation(){
+        view.backgroundColor = .black
         animationView.animation = Animation.named("codepaca")
         // set the animation view to be the entire view size, kinda big
 //        animationView.frame = view.bounds
